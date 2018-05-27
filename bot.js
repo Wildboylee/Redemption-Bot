@@ -102,13 +102,13 @@ client.on("message", async message => {
   
   
   if(command === "connect") {
-    message.channel.send("<:pepodance:448215372768870412>" + {embed: {
+    message.channel.send({embed: {
     color: 3447003,
     author: {
       name: client.user.username,
       icon_url: client.user.avatarURL
     },
-    title: "DarkRP", //https://steamcommunity.com/sharedfiles/filedetails/?id=1387294537
+    title: "<:PepoDance:448215372768870412> DarkRP <:PepoDance:448215372768870412>", //https://steamcommunity.com/sharedfiles/filedetails/?id=1387294537
     description: "Connect: [steam://connect/185.38.148.88:27035](steam://connect/185.38.148.88:27035)"
   }
 });
