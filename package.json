@@ -8,12 +8,6 @@
     "start": "node bot.js"
   },
   "dependencies": {
-    "discord.js": "^11.0.0",
-    "fs": "0.0.1-security",
-    "node-opus": "^0.2.1",
-    "opusscript": "0.0.6",
-    "pick-random": "2.0.0",
-    "request": "^2.83.0"
   },
   "author": "DribbleOnMe",
   "license": "Same"
