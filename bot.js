@@ -3,7 +3,7 @@ const { Client, Util } = require('discord.js');
 
 const client = new Client({ disableEveryone: true });
 
-
+ 
 const queue = new Map();
 
 		const pickRandom = require('pick-random');
