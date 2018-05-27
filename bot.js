@@ -121,11 +121,6 @@ client.on("message", async message => {
     },
     title: "DarkRP",
     description: "[steam://connect/185.38.148.88:27035](steam://connect/185.38.148.88:27035"
-    fields: [{
-        name: "DarkRP",
-        value: "[steam://connect/185.38.148.88:27035](steam://connect/185.38.148.88:27035)"
-      }
-    ]
   }
 });
   }
