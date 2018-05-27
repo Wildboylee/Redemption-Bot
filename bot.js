@@ -119,7 +119,7 @@ client.on("message", async message => {
       icon_url: client.user.avatarURL
     },
     title: "DarkRP",
-    description: "[steam://connect/185.38.148.88:27035](steam://connect/185.38.148.88:27035"
+    description: "[steam://connect/185.38.148.88:27035](steam://connect/185.38.148.88:27035)"
   }
 });
   }
