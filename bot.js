@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const { Client, Util } = require('discord.js');
-const { TOKEN, PREFIX } = require('./config');
 
 const client = new Client({ disableEveryone: true });
 
@@ -137,5 +136,5 @@ client.on("message", async message => {
 
 
 
- 
+
 client.login(process.env.BOT_TOKEN);
