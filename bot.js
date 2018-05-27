@@ -113,6 +113,18 @@ client.on("message", async message => {
   }
 });
   }
+  if(command === "connect") {
+    message.channel.send({embed: {
+    color: 3447003,
+    author: {
+      name: client.user.username,
+      icon_url: client.user.avatarURL
+    },
+    title: "<a:PepoDance:448215372768870412> DarkRP <a:PepoDance:448215372768870412>", //https://steamcommunity.com/sharedfiles/filedetails/?id=1387294537
+    description: "Connect: [steam://connect/185.38.148.88:27035](steam://connect/185.38.148.88:27035)"
+  }
+});
+  }
 });
 
 
